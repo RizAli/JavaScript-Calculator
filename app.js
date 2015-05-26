@@ -8,23 +8,23 @@ function setValues() {
 function sum() {
   setValues();
   result = a + b;
-  document.write("The sum is equal to " +  result);
+  document.getElementById('result').innerHTML =  result;
 }
 
 function subtract(){
   setValues();
   result = a - b;
-  document.write("The subtraction is equal to " + result);
+  document.getElementById('result').innerHTML = result;
 }
 
 function multiply(){
   setValues();
   result = a * b;
-  document.write("The multiplication is equal to " + result);
+  document.getElementById('result').innerHTML = result;
 }
 
 function divide() {
   setValues();
   result = a / b;
-  document.write("The division is equal to " + result);
+  document.getElementById('result').innerHTML = result;
 }
